@@ -33,6 +33,7 @@ POID_MAX = {"verte" : 3000,
             "prioritaire" : 3000,
             "ecopli" : 250,
             "outre-mer" : 30000}
+#Listes choix lettres et régions
 
 TYPES_LETTRES = ["verte","prioritaire","ecopli","colissimo outre-mer","cécogramme"]
 
@@ -40,16 +41,6 @@ OM1 = ['guyanne','guadeloupe','martinique,la reunion; st pierre et miquelon', 's
 
 
 OM2 = ['nouvelle-caledonie','polynesie francasie', 'wallis-et-futuna']
-
-
-# Liste des types de lettres
-
-
-
-
-
-
-
 
 
 def saisie_type_lettre()-> str:
